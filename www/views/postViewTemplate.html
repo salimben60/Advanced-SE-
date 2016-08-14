@@ -1,0 +1,46 @@
+<div id="postView">
+    <p>Salim Post updated</p>
+
+    <div class="col-md-5 well ">
+        <div class="list-group">
+
+            <h2>1. Logging in using Facebook </h2>
+
+            <div id="status"></div>
+            <!-- This is the Login Button -->
+            <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+            </fb:login-button>
+        </div>
+    </div>
+
+    <div class="col-md-5 col-md-offset-1 well text-center ">
+        <div class="list-group">
+
+            <!-- THIS IS TO POST ON YOUR PERSONAL FACEBOOK PAGE -->
+            <h2>2. Post on Facebook</h2>
+            <h5> Click on the link below, and it should post to your facebook profile, feel free to use (I
+                showed the demo in
+                class). </h5>
+
+            <div
+                    class="fb-like"
+                    data-share="true"
+                    data-width="450"
+                    data-show-faces="true">
+            </div>
+            <br>
+
+        </div>
+    </div>
+    <div class="row setup-content step slideRight">  <!--TO HIDE hiddenStepInfo -->
+        <div class="col-xs-12">
+            <div class="col-md-12 well text-center">
+                <h3>Setup the Facebook SDK for JavaScript</h3>
+
+                <p> This is very crucial to start initialize the setup, it is copy pasted from the Facebook Developers
+                    page. </p>
+                <img src="fb1.PNG" alt="Salim" width="500" height="500">
+
+            </div>
+        </div>
+</div>
